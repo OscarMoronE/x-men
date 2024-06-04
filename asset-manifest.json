@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/x-men/static/css/main.24be7d68.css",
+    "main.js": "/x-men/static/js/main.3cfedbcd.js",
+    "static/js/453.cb03c0d9.chunk.js": "/x-men/static/js/453.cb03c0d9.chunk.js",
+    "static/media/phoenix-black.png": "/x-men/static/media/phoenix-black.dc6778d2648164cc7cce.png",
+    "static/media/serie.jpg": "/x-men/static/media/serie.7be26058b2dd8cbd2475.jpg",
+    "static/media/cyclops.jpg": "/x-men/static/media/cyclops.a43ac94ab8f778bb9efb.jpg",
+    "static/media/logoXmen.png": "/x-men/static/media/logoXmen.645f1b3897708882e3ab.png",
+    "static/media/logan.jpg": "/x-men/static/media/logan.7d038f5839c6010865c5.jpg",
+    "static/media/goblin.jpg": "/x-men/static/media/goblin.6e5a5db9de06846c0f7b.jpg",
+    "static/media/sky.jpg": "/x-men/static/media/sky.939e08fa8308d5c76326.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/x-men/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/x-men/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/x-men/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "index.html": "/x-men/index.html",
+    "main.24be7d68.css.map": "/x-men/static/css/main.24be7d68.css.map",
+    "main.3cfedbcd.js.map": "/x-men/static/js/main.3cfedbcd.js.map",
+    "453.cb03c0d9.chunk.js.map": "/x-men/static/js/453.cb03c0d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24be7d68.css",
+    "static/js/main.3cfedbcd.js"
+  ]
+}

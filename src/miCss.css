@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Centra;
+    src: url('./font/CentraNo2-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Centra;
+    src: url('./font/CentraNo2-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Centra;
+    src: url('./font/CentraNo2-Book.ttf');
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.body {
+    background-color: rgb(248, 248, 248);
+    color: rgb(12, 16, 16);
+}
+
+.contenedor {
+    display: flex;
+    /*Nos permite que sus 3 hijos esten en la misma fila*/
+    justify-content: space-evenly;
+    /*distribuye las img de manera horizontal */
+}
+
+.caja {
+    width: 30%;
+    background-color: goldenrod;
+    font-size: 2em;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    margin: 20px;
+}
+
+.caja img {
+    width: 430px;
+    height: 300px;
+}
+
+.nombre {
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url('./images/sky.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.banner button:hover svg {
+    margin-left: 25px;
+}
+
+.banner img {
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121212 !important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.logoXmen {
+    margin-left: 60%;
+    margin-top: 1%;
+}
+
+.iam {
+    margin-left: 30%;
+    position: inherit;
+    margin-top: -15%;
+}
+
+.phoenixDark {
+    margin-left: 10%;
+    margin-top: -15%;
+}
+
+.guess {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+#pista {
+    color: yellow;
+}
+
+@media (max-width: 767px) {
+    .caja {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .caja img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        padding: 90px 0;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .logoXmen {
+        margin-left: 10;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .iam {
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .guess {
+        max-width: 100%;
+        font-size: 65%;
+        align-items: center;
+    }
+
+    .nombre {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .contenedor {
+        max-width: 90%;
+        margin-left: 7%;
+    }
+}
